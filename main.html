@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Yalla-Tazaker</title>
+
+</head>
+<body>
+    <div id="topBar">
+        <a href="main.html" id="logo"><img src="logo"></a>
+        <input type="text" placeholder="Search">
+        <a href="profile.html" id="profile">Profile</a>
+    </div>
+    <div id="nav">
+        <ul id="navBar">
+            <li><a href="">Movies</a></li>
+            <li><a href="">Concerts</a></li>
+            <li><a href="manage.html">Manage</a></li>
+            <li><a href="signUp.html">Sign up</a></li>
+            <li><a href="signIn.html">Sign in</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+        
+    </div>
+
+    <div id="content">
+        <ul id="eventsList">
+            <li><img src="batman" alt=""><p>Batman</p></li>
+            <li><img src="batman" alt=""><p>Batman</p></li>
+        </ul>
+    </div>
+    <div id="filter">
+        <h3>Filter</h3>
+        <p>Event Type</p>
+        <form action="">
+            <input type="checkbox" id="filterMovies">
+            <label for="filterMovies">Movies</label><br>
+            <input type="checkbox" id="filterConcerts">
+            <label for="filterConcerts">Concerts</label><br>
+            <input type="checkbox" id="filterOther">
+            <label for="filterOther">Other</label><br>
+        </form>
+        <label for="filterDate">Event Date</label>
+        <input type="date" id="filterDate">
+
+    </div>
+    
+</body>
+</html>
