@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cart.css">
+    <title>Cart</title>
+</head>
+<body>
+    <div id="topBar">
+        <a href="main.html" id="logo"><img src="logo" alt="" width="50px"></a>
+        <input type="text" placeholder="Search">
+        <a href="profile.html" id="profile">Profile</a>
+    </div>
+    <a href="main.html">Back</a>
+    
+    <h3>Cart</h3>
+    <div style="overflow-x: auto;">
+        <table id="cart">
+            <thead>
+                <tr>
+                    <th id="product">Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="item1">
+                    <td>Batman</td>
+                    <td>90</td>
+                    <td>9</td>
+                    <td>9*90</td>
+                    <td><button>Delete</button></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3"><b>Total</b></td>
+                    <td><b>1900</b></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <button style="float: right;">Proceed to checkout</button>
+</body>
+</html>
